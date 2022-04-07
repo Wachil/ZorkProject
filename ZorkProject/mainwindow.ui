@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButtonNorth">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>360</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>North</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSouth">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>460</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>South</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonWest">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>West</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonEast">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>410</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>East</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>421</width>
+      <height>301</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonTP">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>410</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMap">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>410</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MAP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>161</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>[h] --- [f] --- [g]
+             |         
+            |         
+[c] --- [a] --- [b] --- [j]
+            |         
+           |         
+[i] --- [d] --- [e]</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonHystory">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>500</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>History</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonInfos">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>500</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Command</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_health">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>350</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>320</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_attack">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>410</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Attack</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_wordle">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>230</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_validate">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>270</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Validate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_wordle">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>200</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wordle Game</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_menu">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>100</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>Welcome to the Zork game 
+            Are you ready ?</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_play">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>220</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLAY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_game_over">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>100</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>     GAME OVER 
+      Try again ...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_restart">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>220</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RESTART</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_clear">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear the console</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_info_room">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>450</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Infos</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidgetInventory">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>420</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_use">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>480</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Use</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_items_rooms">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>400</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Items in the room</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_your_damage">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>380</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_win_msg">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>141</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>           You win !
+You found your sister !
+   You can play again</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_tomenu">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>220</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MENU</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
