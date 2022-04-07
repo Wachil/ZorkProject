@@ -1,5 +1,4 @@
 #include "Room.h"
-#include "Command.h"
 
 Room::Room(QString description, Enemy *enemy, bool lock) {
 	this->description = description;

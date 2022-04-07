@@ -1,7 +1,5 @@
 #ifndef ZORKUL_H_
 #define ZORKUL_H_
-#include "Command.h"
-#include "Parser.h"
 #include "Room.h"
 #include <iostream>
 #include "QString"
